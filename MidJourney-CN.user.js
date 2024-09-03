@@ -234,7 +234,9 @@
         "Where do I find and manage my survey data?": "我在哪里可以找到和管理我的调查数据？",
         // 错误提示
         "Creation failed": "创建失败",
+        "Prompt flagged by AI moderator": "提示被 AI 审核员标记",
         "Sorry, while the prompt you entered was deemed safe, the resulting image was detected as having content that might violate our community guidelines and has been blocked. Your account status will not be affected by this.": "抱歉，虽然您输入的提示被认为是安全的，但生成的图片被检测为包含可能违反我们社区准则的内容，因此已被屏蔽。您的帐户状态不会受此影响。",
+        "Sorry! Please try a different prompt. We’re not sure this one meets our community guidelines. Hover or tap to review the guidelines.": "抱歉！请尝试一个不同的提示。我们不确定这个提示是否符合我们的社区指南。请悬停或点击查看指南。",
     };
 
     const ignoreClasses = {
