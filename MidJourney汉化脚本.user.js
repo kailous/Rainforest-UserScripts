@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MidJourney汉化脚本
-// @version      1.0.0
+// @version      1.0.1
 // @updateURL    https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/MidJourney汉化脚本.user.js#bypass=true
 // @description  汉化MidJourney网站上的文本，并为特定按钮添加样式
 // @author       kailous
