@@ -12,6 +12,10 @@
     'use strict';
 
     const translations = {
+        // 主页
+        "Log In": "登录",
+        "Sign Up": "注册",
+        "Documentation": "文档",
         // 左侧菜单栏
         "Explore": "探索",
         "Create": "创建",
