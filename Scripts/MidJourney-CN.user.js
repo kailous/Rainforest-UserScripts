@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MidJourney汉化脚本
-// @version      1.0.4
+// @version      1.0.5
 // @updateURL    https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/Scripts/MidJourney-CN.user.js
 // @description  汉化MidJourney网站上的文本，并为特定按钮添加样式
 // @author       kailous
@@ -149,6 +149,7 @@
         "Remix": "混合",
         "Vary Region": "区域重绘",
         "Variation": "变体",
+        "Imagine": "想象",
         // 时间
         "Yesterday": "昨天",
         "Today": "今天",
