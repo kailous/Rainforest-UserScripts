@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MidJourney汉化脚本
-// @version      1.0.5
+// @version      1.1.1
 // @updateURL    https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/Scripts/MidJourney-CN.user.js
 // @description  汉化MidJourney网站上的文本，并为特定按钮添加样式
 // @author       kailous
@@ -21,6 +21,7 @@
         "Create": "创建",
         "Organize": "画廊",
         "Chat": "聊天",
+        "Edit": "编辑",
         "General Chaos": "综合讨论",
         "Daily Theme": "每日主题",
         "Newbies": "新手专区",
@@ -238,6 +239,52 @@
         "Prompt flagged by AI moderator": "提示被 AI 审核员标记",
         "Sorry, while the prompt you entered was deemed safe, the resulting image was detected as having content that might violate our community guidelines and has been blocked. Your account status will not be affected by this.": "抱歉，虽然您输入的提示被认为是安全的，但生成的图片被检测为包含可能违反我们社区准则的内容，因此已被屏蔽。您的帐户状态不会受此影响。",
         "Sorry! Please try a different prompt. We’re not sure this one meets our community guidelines. Hover or tap to review the guidelines.": "抱歉！请尝试一个不同的提示。我们不确定这个提示是否符合我们的社区指南。请悬停或点击查看指南。",
+        "Variations on Editor jobs is not supported.": "提交失败：编辑器任务不支持变体。",
+        // 弹出卡片
+        "Welcome to the Midjourney Image Editor": "欢迎使用 Midjourney 图片编辑器",
+        "The Midjourney Image Editor lets you modify, expand, and reimagine imagery uploaded from your computer.": "Midjourney 图像编辑器可让您修改、扩展和重新构想从计算机上传的图像。",
+        "Use images from outside Midjourney": "使用 Midjourney 以外的图片",
+        "Editing is done through text prompting and region selecting. It's compatible with model personalization, style references, character references, and image prompts.": "编辑通过文本提示和区域选择进行。它兼容模型个性化、风格引用、角色引用和图像提示。",
+        "Retexture images": "图像重塑",
+        "You can also use our 'image retexturing mode' to keep the shape the same, but modify lighting, surface materials, and texture.": "您还可以使用我们的“图像重塑模式”来保持形状不变，但修改灯光、表面材质和纹理。",
+        "Next": "下一步",
+        "Please Accept the Terms of Service": "请接受服务条款",
+        "We're taking extra precautions with the Editor. Please read and explore this new tool with creativity and respect.": "我们对编辑器采取了额外的安全措施。请在使用该新工具时，保持创造性并尊重规则。",
+        "Some harmless prompts might be blocked. These won't use your GPU hours/credits.": "一些无害的提示可能会被阻止。这不会消耗您的GPU时间或积分。",
+        "Use the Editor responsibly. Misuse that breaks the": "请负责任地使用编辑器。违反",
+        "Community Guidelines": "社区指南",
+        "may result in account suspension or banning without refund.": "的滥用行为可能导致账户暂停或封禁，且不予退款。",
+        "You're accountable for the content you create, and image rights to anything you upload.": "您对自己创建的内容以及上传图像的权利负责。",
+        "Help us improve by reporting issues": "请通过报告问题帮助我们改进",
+        "here": "点击这里报告",
+        ".": "。",
+        "I have read and agree to the": "我已阅读并同意",
+        "Start Creating": "开始创建",
+        // 编辑模式
+        "Move / Resize": " 移动 / 调整大小",
+        "Retexture": "图像重塑",
+        "Undo": "撤销",
+        "Redo": "重做",
+        "Suggest Prompt": "建议提示",
+        "Brush Size": "画笔大小",
+        "Image Scale": "图像缩放",
+        "Aspect Ratio": "纵横比",
+        "Export": "导出",
+        " Upscale to Gallery": " 导出到图库",
+        " Download Image": " 下载图像",
+        "Export": "导出",
+        "Export the results of your editing, either to your gallery or to your computer. Both options export the original generated image, before any subsequent edits.": "将编辑结果导出到您的图库或计算机。两种选项都会导出原始生成的图像，而不是后续编辑后的版本。",
+        "Upscale to Gallery": "导出到图库",
+        "Use this to create a final, full quality version of your image and add it to your gallery.": "使用此选项可生成图像的最终高质量版本，并将其添加到您的图库中。",
+        "Download Image": "下载图像",
+        "Use this to download the image to your computer.": "使用此选项将图像下载到您的计算机。",
+        "View All": "查看全部",
+        "New": "新建",
+        "Edit from URL": "从URL编辑",
+        "Edit Uploaded Image": "编辑上传的图片",
+        "Retexture will change the contents of the input image while trying to preserve the original structure.": "重新纹理化将改变输入图像的内容，同时尽量保留原始结构。",
+        "For good results, avoid using prompts that are incompatible with the general structure of the image.": "为了获得良好的效果，请避免使用与图像整体结构不兼容的提示词。",
+        "Open in Full Editor": "在完整编辑器中打开"
     };
 
     const ignoreClasses = {
