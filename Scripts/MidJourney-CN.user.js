@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MidJourney汉化脚本
-// @version      1.1.1
+// @version      1.1.2
 // @updateURL    https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/Scripts/MidJourney-CN.user.js
 // @description  汉化MidJourney网站上的文本，并为特定按钮添加样式
 // @author       kailous
@@ -284,7 +284,12 @@
         "Edit Uploaded Image": "编辑上传的图片",
         "Retexture will change the contents of the input image while trying to preserve the original structure.": "重新纹理化将改变输入图像的内容，同时尽量保留原始结构。",
         "For good results, avoid using prompts that are incompatible with the general structure of the image.": "为了获得良好的效果，请避免使用与图像整体结构不兼容的提示词。",
-        "Open in Full Editor": "在完整编辑器中打开"
+        "Open in Full Editor": "在完整编辑器中打开",
+        // 2024年12月17日新功能
+        "Teach Midjourney about what you find beautiful.": "教Midjourney了解您认为美丽的事物。",
+        "Inside every prompt are “unspoken” details. Midjourney will try to fill these in a way that makes the image most compelling for the entire community.": "在每个提示中都包含了“未说出口的”细节。Midjourney会试图以一种让整个社区觉得最具吸引力的方式填充这些内容。",
+        "But your tastes are unique! Do you like cute animals or fearless fantasy creatures? Buildings old and rugged, or sleek and modern? Profiles help Midjourney “get to know you” and shape images toward what you love.": "但您的品味是独特的！您喜欢可爱的动物，还是无畏的奇幻生物？古老破旧的建筑，还是现代流畅的设计？个性化资料帮助Midjourney“了解您”，并根据您的喜好调整图像。",
+        "Create Personalization Profiles to teach Midjourney what you like. Add images to Moodboards to give Midjourney visual inspiration.": "创建个性化档案来教Midjourney您的喜好。将图片添加到灵感画板，给予Midjourney视觉灵感。"
     };
 
     const ignoreClasses = {
