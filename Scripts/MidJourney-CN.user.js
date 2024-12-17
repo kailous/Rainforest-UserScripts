@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidJourney汉化脚本
-// @version      1.1.3
-// @updateURL    https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/Scripts/MidJourney-CN.user.js
+// @version      1.1.4
+// @updateURL    https://github.com/kailous/Rainforest-UserScripts/raw/refs/heads/main/Scripts/MidJourney-CN.user.js
 // @description  汉化MidJourney网站上的文本，并为特定按钮添加样式
 // @author       kailous
 // @match        https://www.midjourney.com/*
