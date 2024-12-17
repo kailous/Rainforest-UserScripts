@@ -291,7 +291,7 @@
         "But your tastes are unique! Do you like cute animals or fearless fantasy creatures? Buildings old and rugged, or sleek and modern? Profiles help Midjourney “get to know you” and shape images toward what you love.": "但您的品味是独特的！您喜欢可爱的动物，还是无畏的奇幻生物？古老破旧的建筑，还是现代流畅的设计？个性化资料帮助Midjourney“了解您”，并根据您的喜好调整图像。",
         "Create Personalization Profiles to teach Midjourney what you like. Add images to Moodboards to give Midjourney visual inspiration.": "创建个性化档案来教Midjourney您的喜好。将图片添加到灵感画板，给予Midjourney视觉灵感。",
         "Create Standard Profile": "创建 Standard Profile",
-        "Select from pairs of MidJourney images to teach the model about your preferences.": "从 MidJourney 图片的成对选项中选择，以教导模型了解您的偏好。",
+        "Select from pairs of midJourney images to teach the model about your preferences.": "从 MidJourney 图片的成对选项中选择，以教导模型了解您的偏好。",
         "Create Moodboard": "创建 Moodboard",
         "Collect uploaded or generated images to show your target style.": "收集上传或生成的图片，展示您所期望的风格。",
         "Your Global Profile": "您的全局配置文件",
