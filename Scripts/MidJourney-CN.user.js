@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MidJourney汉化脚本
-// @version      1.1.5
+// @version      1.1.6
 // @updateURL    https://github.com/kailous/Rainforest-UserScripts/raw/refs/heads/main/Scripts/MidJourney-CN.user.js
 // @description  汉化MidJourney网站上的文本，并为特定按钮添加样式
 // @author       kailous
@@ -297,7 +297,9 @@
         "Your Global Profile": "您的全局配置文件",
         "Default Profile": "默认配置文件",
         "Rankings": "排名",
-        "Select profiles and moodboards to use them by default in your prompts": "选择配置文件和灵感画板，使其在您的提示中默认使用。"
+        "Select profiles and moodboards to use them by default in your prompts": "选择配置文件和灵感画板，使其在您的提示中默认使用。",
+        "Personalization Off": "个性化关闭",
+        "Personalization On": "个性化开启"
     };
 
     const ignoreClasses = {
