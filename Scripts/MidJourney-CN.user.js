@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MidJourney汉化脚本
-// @version      1.1.2
+// @version      1.1.3
 // @updateURL    https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/Scripts/MidJourney-CN.user.js
 // @description  汉化MidJourney网站上的文本，并为特定按钮添加样式
 // @author       kailous
@@ -289,7 +289,15 @@
         "Teach Midjourney about what you find beautiful.": "教Midjourney了解您认为美丽的事物。",
         "Inside every prompt are “unspoken” details. Midjourney will try to fill these in a way that makes the image most compelling for the entire community.": "在每个提示中都包含了“未说出口的”细节。Midjourney会试图以一种让整个社区觉得最具吸引力的方式填充这些内容。",
         "But your tastes are unique! Do you like cute animals or fearless fantasy creatures? Buildings old and rugged, or sleek and modern? Profiles help Midjourney “get to know you” and shape images toward what you love.": "但您的品味是独特的！您喜欢可爱的动物，还是无畏的奇幻生物？古老破旧的建筑，还是现代流畅的设计？个性化资料帮助Midjourney“了解您”，并根据您的喜好调整图像。",
-        "Create Personalization Profiles to teach Midjourney what you like. Add images to Moodboards to give Midjourney visual inspiration.": "创建个性化档案来教Midjourney您的喜好。将图片添加到灵感画板，给予Midjourney视觉灵感。"
+        "Create Personalization Profiles to teach Midjourney what you like. Add images to Moodboards to give Midjourney visual inspiration.": "创建个性化档案来教Midjourney您的喜好。将图片添加到灵感画板，给予Midjourney视觉灵感。",
+        "Create Standard Profile": "创建 Standard Profile",
+        "Select from pairs of MidJourney images to teach the model about your preferences.": "从 MidJourney 图片的成对选项中选择，以教导模型了解您的偏好。",
+        "Create Moodboard": "创建 Moodboard",
+        "Collect uploaded or generated images to show your target style.": "收集上传或生成的图片，展示您所期望的风格。",
+        "Your Global Profile": "您的全局配置文件",
+        "Default Profile": "默认配置文件",
+        "Rankings": "排名",
+        "Select profiles and moodboards to use them by default in your prompts": "选择配置文件和灵感画板，使其在您的提示中默认使用。"
     };
 
     const ignoreClasses = {
