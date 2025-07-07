@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         天猫产品资源下载器
-// @version      3.4
+// @version      3.5.0
 // @description  获取天猫商品主图、详情图、SKU图，打包为 zip（主图/详情图/SKU 子目录），文件名为“产品名称 - 图包.zip”自动下载！支持自动滚动加载！
-// @author       You
+// @author       kailous
 // @match        *://*.tmall.com/*
 // @grant        none
 // @run-at       document-idle
