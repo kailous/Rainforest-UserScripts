@@ -6,7 +6,7 @@
 // @match        *://*.tmall.com/*
 // @grant        none
 // @run-at       document-idle
-// @require      https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js
+// @require      https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/refs/heads/main/Scripts/Tmall-download.js
 // ==/UserScript==
 
 (function () {
