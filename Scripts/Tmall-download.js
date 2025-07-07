@@ -6,7 +6,7 @@
 // @match        *://*.tmall.com/*
 // @grant        none
 // @run-at       document-idle
-// @require      https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/refs/heads/main/Scripts/Tmall-download.js
+// @updateURL    https://github.com/kailous/Rainforest-UserScripts/raw/refs/heads/main/Scripts/Tmall-download.js
 // ==/UserScript==
 
 (function () {
