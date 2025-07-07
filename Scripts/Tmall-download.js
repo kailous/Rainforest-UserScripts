@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         天猫产品资源下载器
-// @version      3.5.3
+// @version      3.5.4
 // @description  获取天猫商品主图、详情图、SKU图，打包为 zip），文件名为“产品名称 - 图包.zip”自动下载！支持自动滚动加载！
 // @author       kailous
 // @match        *://*.tmall.com/*
@@ -8,6 +8,7 @@
 // @run-at       document-idle
 // @require      https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js
 // @updateURL    https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/Scripts/Tmall-download.js
+// @downloadURL  https://raw.githubusercontent.com/kailous/Rainforest-UserScripts/main/Scripts/Tmall-download.js
 // ==/UserScript==
 
 (function () {
