@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         天猫产品资源下载器
-// @version      3.5.4
+// @version      3.6.0
 // @description  获取天猫商品主图、详情图、SKU图，打包为 zip），文件名为“产品名称 - 图包.zip”自动下载！支持自动滚动加载！
 // @author       kailous
 // @match        *://*.tmall.com/*
@@ -96,7 +96,7 @@
           const filename = `${String(i + 1).padStart(2, '0')}.${ext}`;
           folder.file(filename, blob);
         } catch (err) {
-          console.error('❌ 下载失败:', url, err);
+          console.error('下载失败', url, err);
         }
       }
     };
@@ -155,7 +155,20 @@ async function scrollAndDownload() {
 
 // ✅ 插入按钮（立即显示，不延迟）
 function insertDownloadButton() {
-  const actionContainer = document.querySelector('[class*="--LeftButtonListForEmphasize--"]');
+  
+  // 容器列表
+  const classListToMatch = [
+    '--LeftButtonListForEmphasize--',
+    '--LeftButtonList--'
+  ];
+  
+  // 载入容器列表
+  const selector = classListToMatch
+    .map(cls => `[class*="${cls}"]`)
+    .join(', ');
+  
+  // 匹配容器
+  const actionContainer = document.querySelector(selector);
 
   // 创建外层按钮容器
   const btndiv = document.createElement('div');
